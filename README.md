@@ -1,8 +1,6 @@
 # Vine Reviews
 Use ETL, Amazon Web Services, and Spark to analyze Big Data on an Amazon dataset.
 
----
-
 # Project Summary
 This two-part project uses Big Data and Amazon Web Services to gather and analyze a dataset on Amazon reviews for video games. In the first part of the project, I performed ETL process in Google Colaboratory. I extracted the video games dataset from an S3 bucket using Spark into a PySpark dataframe, transformed the raw data so that it fits the tables according to the ERD diagram, and loaded the transformed raw data into an Amazon RDS instance once connected to Postgress. In the second part of the project, I continued to use PySpark to perform statistical analysis and determine if the vine reviews were biased. 
 
